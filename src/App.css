@@ -12,3 +12,9 @@ body {
 }
 
 /* Write your code here. */
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  padding: 40px;
+}

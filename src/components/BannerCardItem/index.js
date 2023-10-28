@@ -5,11 +5,10 @@ const BannerCardItem = props => {
   const {headerText, description, className} = cardDetails
 
   return (
-    <li className="list-container">
+    <li>
       <h1 className="heading">{headerText}</h1>
       <p className="description">{description}</p>
       <button className="button">Show More</button>
-      <div className={className}></div>
     </li>
   )
 }
